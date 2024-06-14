@@ -17,7 +17,7 @@ So this is **A Docker Environment Inside of Docker Ubuntu Instance.**
 1.  Open Cmd
 2.  Run `./windows/setup.bat ubuntu-docker`
 
-Get Ubuntu Shell:
+**Get Ubuntu Shell in windows**:
 
 1.  run `windows/run-ubuntu.bat ubuntu-docker`
 2.  write `docker run hello-world`  in cli.
@@ -27,7 +27,7 @@ Get Ubuntu Shell:
 1.  Open Cmd
 2.  Run `chmod +x ./linux/setup.sh; ./linux/setup.sh ubuntu-docker`
 
-Get Ubuntu Shell:
+**Get Ubuntu Shell in windows**:
 
 1.  run  `chmod +x ./linux/run-ubuntu.sh; ./linux/run-ubuntu.sh ubuntu-docker`
 2.  write `docker run hello-world`  in cli.
