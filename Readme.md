@@ -8,7 +8,7 @@ So this is **A Docker Environment Inside of Docker Ubuntu Instance.**
 
 **Direct Run:**
 
-`docker pull 0xAungkon/docker-inside-docker (`**It will skip Setup**`)`
+`docker pull 0xAungkon/docker-inside-docker` (**It will skip Setup**)
 
 docker  run --name ubuntu-docker -dit `docker-inside-docker`
 
