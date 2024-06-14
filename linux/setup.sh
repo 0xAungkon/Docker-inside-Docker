@@ -1,5 +1,11 @@
 #!/bin/bash
-container_name='docker-ubuntu1'
+if [ -z "$1" ]; then
+    echo "Error: Container name not provided."
+    echo "Usage: $0 <container_name>"
+    exit 1
+fi
+
+container_name=$1
 
 mkdir ./root; 
 docker run --name $container_name --privileged -dit -v $(pwd)/root:/root ubuntu ;
