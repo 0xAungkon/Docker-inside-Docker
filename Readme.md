@@ -19,7 +19,7 @@ So this is **A Docker Environment Inside of Docker Ubuntu Instance.**
 
 **Get Ubuntu Shell in windows**:
 
-1.  run `windows/run-ubuntu.bat ubuntu-docker`
+1.  run `./windows/run-ubuntu.bat ubuntu-docker`
 2.  write `docker run hello-world`  in cli.
 
 **Linux Setup:**
