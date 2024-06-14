@@ -10,7 +10,7 @@ So this is **A Docker Environment Inside of Docker Ubuntu Instance.**
 
 `docker pull 0xAungkon/docker-inside-docker` (**It will skip Setup**)
 
-docker  run --name ubuntu-docker -dit `docker-inside-docker`
+`docker  run --name ubuntu-docker -dit 0xAungkon/docker-inside-docker`
 
 **Windows Setup:**
 
